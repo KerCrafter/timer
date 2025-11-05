@@ -20,7 +20,7 @@ module timer #(
             else if (cnt == CLK_COUNT - 1)
                 cnt <= 0;
             else
-                cnt <= cnt + 1;
+                cnt <= cnt + 1'd1;
         end else begin
             cnt <= 0;
         end
