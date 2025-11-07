@@ -1,3 +1,5 @@
+`default_nettype none
+
 module timer #(
     parameter CLK_COUNT = 1,
     parameter FIRST_TICK_AFTER_DELAY = 0
